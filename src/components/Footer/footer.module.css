@@ -1,0 +1,10 @@
+.footerbody{
+   min-height: 70px;
+   max-height: 70px;
+}
+
+.footerbody p{
+   text-align: center;
+   padding-top: 15px;
+   color: #286DAB;
+}

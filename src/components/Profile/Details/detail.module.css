@@ -1,0 +1,129 @@
+.detailsbody{
+    width: 50vw;
+ min-height: 230px;
+ min-width: 300px;
+    animation-name: boxx;
+animation-duration: 2s;
+animation-direction: alternate;
+font-family: 'Roboto', sans-serif;
+  font-size:clamp(2rem,1vmin,3rem);
+
+}
+
+.contentbody{
+    margin-right: 40%;
+}
+
+@keyframes boxx{
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    to{
+        width: 50vw;
+        opacity: none;
+        
+    }
+}
+
+
+.hi{
+   font-size: 24px;
+    font-weight: bolder;
+    line-height: 0rem;
+   
+}
+
+.name{
+     color: #286DAB;
+     font-size: 28px;
+    font-weight: bolder;
+    width: 100%;
+   
+}
+
+.fullstack{
+    font-size: 14px;
+   font-weight: 700;
+   color: #B37D4E;
+}
+
+.smalldiv{
+      width: 100%;
+    margin-left: 40%;
+font-family: 'Roboto', sans-serif;
+}
+
+.resume{
+  border: none;
+  background-color: #286dab;
+padding: 5px;
+color: white;
+cursor: pointer;
+border-radius: 3px;
+min-width: 120px;
+transition: 0.4s ease;
+}
+
+/* .resume:hover{
+  transform: scale(1.1);
+} */
+
+.github{
+    border-radius: 100px;
+    transition: 1s;
+    cursor: pointer;
+    width: 40px;
+}
+
+.github:hover{
+
+ transform: rotateY(360deg);
+}
+
+.linkedin{
+    border-radius: 100px;
+    transition: 1s;
+    cursor: pointer;
+    width: 40px;
+}
+
+.linkedin:hover{
+   transform: rotateY(360deg);
+
+}
+
+.twitter{
+      border-radius: 100px;
+    
+    cursor: pointer;
+    width: 40px;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .detailsbody{
+        min-width: 500px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen 
+    and (min-device-width : 501px) 
+    and (max-device-width : 740px){
+    .detailsbody{
+        min-width: 400px;
+        /* margin-top: 100px; */
+    }
+}
+
+@media only screen 
+/* and (min-width: 280px) */
+and (max-width: 500px){
+     .detailsbody{
+          min-width: 280px;
+    
+     }
+     
+}

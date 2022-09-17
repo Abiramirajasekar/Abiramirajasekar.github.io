@@ -1,0 +1,21 @@
+
+.projectcontent{
+/* border: 1px solid black; */
+
+    
+display: flex;
+flex-wrap: wrap;
+min-width: 300px;
+justify-content: space-around;
+}
+.h1{
+    text-align: center;
+}
+
+
+
+/* 
+@media only screen and (max-width: 1400px) {
+
+
+} */

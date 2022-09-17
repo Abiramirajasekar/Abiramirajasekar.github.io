@@ -1,0 +1,55 @@
+.leftbody{
+       border-bottom: 1px solid #f2f2f2;
+       border-top: 1px solid #f2f2f2;
+       background-color: #fafafa;
+    min-height: 200px;
+    margin-top: 100px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    min-width: 250px;
+   max-height: 380px;
+}
+
+.maildiv{
+    margin-top: 30px;
+}
+
+.maildiv:hover{
+    color: #B37D4E;
+}
+
+.phonediv{
+    margin-top: 30px;
+}
+
+.icondiv{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.icondiv img{
+    width: 35px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+ .img:hover{
+    transform: rotateY(180deg);
+}
+
+.wrapper{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px){
+    .leftbody{
+        width: 100%;
+        border-bottom: none;
+    }
+    .wrapper{
+    margin-left: 7%;
+   
+}
+}

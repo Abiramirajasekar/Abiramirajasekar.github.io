@@ -1,0 +1,61 @@
+.rightbody{
+       border-bottom: 1px solid #f2f2f2;
+       border-top: 1px solid #f2f2f2;
+       background-color: #fafafa;
+    min-height: 200px;
+    margin-top: 100px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    min-width: 250px;
+   max-height: 380px;
+    padding: 25px;
+    font-size:16px;
+    
+}
+
+.rightbody input{
+        padding: 8px 10px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    font-size: 15px;
+    width: 50%;
+}
+
+.rightbody div:nth-child(odd){
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+textarea{
+     padding: 8px 10px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    font-size: 15px;
+    width: 50%;
+}
+
+.button{
+    margin-top: 10px;
+    height: 30px;
+    width: 20%;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: #286DAB;
+    border: none;
+    border-radius: 4px;
+}
+
+.wrapper{
+    margin-left: 10%;
+    min-width: 500px;
+}
+
+@media only screen and (max-width: 800px){
+    .rightbody{
+        width: 100%;
+        margin-top: 0;
+        border-top: none;
+    }
+}

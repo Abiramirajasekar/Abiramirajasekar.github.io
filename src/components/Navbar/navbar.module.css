@@ -1,0 +1,86 @@
+.navbody {
+    display: flex;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  min-height: 50px;
+  max-height: 130px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  backdrop-filter: saturate(180%) blur(5px);
+  background-color: hsl(0deg 0% 100%/60%);
+  z-index: 1100;
+  justify-content: space-between;
+ font-family: 'Roboto', sans-serif;
+}
+
+.flexx{
+   
+padding: 0px 20px;
+}
+
+.hs{
+    padding: 18px 50px;
+    font-size: 28px;
+    color: #286DAB;
+    cursor: pointer;
+     transition: 0.5s;
+     
+}
+.hs:hover{
+    transform: scale(1.3);
+   
+}
+
+.flexx > a{
+padding: 0px 20px;
+font-weight: 550;
+cursor: pointer;
+display: inline-block;
+margin-top: 2.5vh;
+}
+
+.flexx a::before{
+    content: "";
+  position: absolute;
+    width: 0vw;
+    margin-top: 20px;
+    height: 3px;
+    transition: 0.3s;
+    background-color: #42A5F5;
+}
+
+.flexx .a1:hover::before{
+     width: 2.8em;
+}
+
+.flexx .a2:hover::before{
+     width: 2.9em;
+}
+
+.flexx .a3:hover::before{
+     width: 3.3em;
+}
+
+.flexx .a4:hover::before{
+     width: 2.6em;
+}
+
+.flexx .a5:hover::before{
+     width: 3.6em;
+}
+
+.flexx a{
+     text-decoration :none;
+     color: black;
+}
+
+
+
+
+@media only screen and (max-width: 630px){
+.flexx{
+   display: none;
+    
+}
+}

@@ -1,0 +1,55 @@
+.photobody{
+    width: 50vw;
+    height: 300px;
+   
+animation-name: boxx;
+animation-duration: 2s;
+}
+
+.photodiv{
+ min-width: 235px;
+    height: 100%;
+    max-width: 250px;
+   margin-left: 40%;
+    /* border: 1px solid #FAFAFA; */
+    overflow: hidden;
+    border-radius:10%;
+}
+
+.photodiv img{
+   width: 100%;
+   height: 100%;
+}
+
+@keyframes boxx{
+    from {
+        width: 0;
+    }
+    to{
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    
+}
+
+@media only screen 
+    and (min-device-width : 501px) 
+    and (max-device-width : 740px){
+    .photobody{
+       margin-right: 70%;
+    }
+}
+
+
+@media only screen 
+/* and (min-width: 280px) */
+and (max-width: 500px){
+    .photobody{
+         margin-right: 100%;
+    }
+    .photodiv{
+        margin-left: 25%;
+    }
+}

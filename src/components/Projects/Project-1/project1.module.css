@@ -1,0 +1,103 @@
+.project1body{
+    width: 600px;
+   min-width: 300px;
+   max-height: 600px;
+   height: auto;
+   font-family: 'Roboto', sans-serif;
+    /* border: 1px solid blueviolet; */
+     border-radius: 20px;
+    box-shadow:5px  5px 5px 8px #e6e6e6;
+    margin: 40px;
+    padding: 20px;
+    /* box-sizing: border-box; */
+}
+.slider{
+   position: relative;
+   min-width: 200px;
+   max-width: 100%;
+   max-height: 50%;
+   border: 1px solid #e6e6e6;
+   overflow: hidden;
+}
+
+.imageediv{
+      
+            
+        opacity: 1;
+    width: 100%;
+   height: 100%;
+}
+
+.proimg{
+     transition-duration: 1s ease;
+   
+
+      width: 100%;
+   height: 100%;
+}
+.left_arrow{
+position: absolute;
+top: 45%;
+user-select: none;
+width: 1.5rem;
+cursor: pointer;
+font-size: 1em;
+border-radius: 100px;
+}
+.right_arrow{
+position: absolute;
+right: 0;
+width: 1.5rem;
+top: 45%;
+user-select: none;
+font-size: 2em;
+cursor: pointer;
+border-radius: 100px;
+}
+
+.btndivv{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   height: 25px;
+   margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.btnpro{
+   position: relative;
+       width: 100px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: .3s;
+    margin: auto;
+  
+   
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    padding-left: 20px;
+   
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+.slider{
+   height: 35%;
+}
+
+}
+
+@media screen and (max-width:700px){
+   /* .btndivv{
+/* margin-bottom: 50px; */
+ 
+   
+}

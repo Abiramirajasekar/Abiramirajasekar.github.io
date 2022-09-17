@@ -1,0 +1,44 @@
+.skillsbody{
+    display: flex;
+        flex-direction: column;
+        min-width: 300px;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #fafafa;
+     margin-top: 100px;
+      font-family: 'Roboto', sans-serif;
+}
+
+.allicons{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+
+.allicons > div{
+       
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 5px 5px 8px #e6e6e6;
+    text-align: center;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+.allicons > div:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.allicons > div >img{
+    width: 80px;
+    height: 80px;
+}

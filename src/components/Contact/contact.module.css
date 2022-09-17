@@ -1,0 +1,10 @@
+.contactbody{
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 800px){
+    .contactbody{
+        flex-direction: column;
+    }
+}
