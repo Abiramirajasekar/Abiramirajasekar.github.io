@@ -84,8 +84,7 @@ const Project4 = () => {
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
         <p>
-          Next.js | JavaScript | React | Tailwind CSS | Firebase V9 | Next Auth
-          | Recoil
+          Next.js | JavaScript | React | Chakra-UI
         </p>
 
         <div className={style.btndivv}>
@@ -158,7 +157,7 @@ const Project4 = () => {
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://drive.google.com/file/d/1hkPmAg85RgT8aI_a2a7-mFZFfvCSUzVx/view?usp=sharing"
+              href=""
             >
               <span>
                 <img

@@ -82,7 +82,7 @@ const Project2 = () => {
         </p>
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
-        <p>React | CSS | JavaScript | Mongo DB | Express JS | Node JS</p>
+        <p>React | CSS | JavaScript | EJS | Node JS</p>
 
         <div className={style.btndivv}>
           <button className={style.btnpro} style={{ backgroundColor: "black" }}>
