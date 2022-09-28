@@ -113,7 +113,7 @@ const Project2 = () => {
               code
             </a>
           </button>
-          {/* <button
+           <button
             className={style.btnpro}
             style={{ backgroundColor: "#286DAB" }}
           >
@@ -121,7 +121,7 @@ const Project2 = () => {
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href=""
+              href="https://arfeen98.github.io/Bathanbodyworks-clone/"
             >
               <span>
                 <svg
@@ -146,9 +146,9 @@ const Project2 = () => {
               </span>
               Live
             </a>
-          </button> */}
+          </button> 
           {/* yt */}
-          <button className={style.btnpro} style={{ backgroundColor: "red" }}>
+          {/* <button className={style.btnpro} style={{ backgroundColor: "red" }}>
             <a
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
@@ -172,7 +172,7 @@ const Project2 = () => {
               </span>
               Demo
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -149,7 +149,7 @@ const Project2 = () => {
             </a>
           </button>
           {/* yt */}
-          <button className={style.btnpro} style={{ backgroundColor: "red" }}>
+          {/* <button className={style.btnpro} style={{ backgroundColor: "red" }}>
             <a
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
@@ -173,7 +173,7 @@ const Project2 = () => {
               </span>
               Demo
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

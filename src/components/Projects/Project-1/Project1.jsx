@@ -122,7 +122,7 @@ const Project1 = () => {
             style={{ backgroundColor: "#286DAB" }}
           >
             <a
-              href="papaya-horse-9be8eb.netlify.app/"
+              href="https://papaya-horse-9be8eb.netlify.app/"
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
             >
