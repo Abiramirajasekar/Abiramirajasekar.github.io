@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router";
 import style from "./detail.module.css";
-
+import Abirami_Resume from "../../Resume/Abirami_Resume.pdf"
 
 function Details() {
   const history = useHistory();
@@ -16,12 +16,19 @@ function Details() {
             Full-stack Web Developer | Competitive programmer
           </p>
           <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1XPN5rShiRv-pCHP8kpBQZnur1mkLxrT3/view?usp=sharing"
+
+            download href={Abirami_Resume} target="_blank"
+          // href="https://drive.google.com/file/d/1XPN5rShiRv-pCHP8kpBQZnur1mkLxrT3/view?usp=sharing"
           >
             {" "}
-            <button className={style.resume}>RESUME</button>
+            <button className={style.resume} onClick={() => window.open("https://drive.google.com/file/d/1XPN5rShiRv-pCHP8kpBQZnur1mkLxrT3/view?usp=sharing")} >RESUME</button>
           </a>
+
+          {/* <a download href={Abirami_Resume.pdf} target="_blank">
+            <button className={style.resume} onClick={() => window.open("https://drive.google.com/file/d/1XPN5rShiRv-pCHP8kpBQZnur1mkLxrT3/view?usp=sharing")}>
+              RESUME
+            </button>
+          </a> */}
           <div style={{ marginTop: "20px" }}>
             <a target="_blank" href="https://github.com/Abiramirajasekar">
               <img
@@ -45,7 +52,7 @@ function Details() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

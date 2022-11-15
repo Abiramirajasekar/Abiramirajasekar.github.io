@@ -24,17 +24,19 @@ const GitHub = () => {
 
   return (
     <div>
-      <h2 style={{textAlign:'center'}}>DAYS I CODE</h2>
+      <h2 style={{ textAlign: 'center' }}>DAYS I CODE</h2>
       <div className='github_Calender'>
 
-        <GitHubCalendar style={{margin:"auto"}}
+        <GitHubCalendar style={{ margin: "auto" }}
           username='Abiramirajasekar'
-         
-          
+
+
           transformData={selectLastHalfYear}
           hideColorLegend
         />
       </div>
+     
+
     </div>
 
 
