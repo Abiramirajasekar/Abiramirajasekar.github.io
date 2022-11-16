@@ -3,13 +3,16 @@ import style from "./profile.module.css";
 import Details from "./Details/Details"
 import Photo from "./Photo/Photo"
 
-function Profile() {
+function Profile({IsMobile}) {
     return (
       <div className={style.profilebody} >
-        
-        <div>
+     {IsMobile?<div style={{marginTop:"150px"}} >
+          <Photo />
+        </div>:
+        <div >
           <Photo />
         </div>
+}
         <div>
           <Details />
         </div>

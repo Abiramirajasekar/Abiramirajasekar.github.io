@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -12,13 +12,13 @@ import State from './components/Statistics/Statistics';
 
 function App() {
 
-
+  const[IsMobile,setIsMobile]=useState(false)
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar IsMobile={IsMobile} setIsMobile={setIsMobile}/>
       <div id="home"></div>
-      <Profile />
+      <Profile IsMobile={IsMobile}/>
       <div id="about"></div>
       <About />
       <div id="project"></div>
